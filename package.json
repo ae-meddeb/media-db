@@ -8,12 +8,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "next": "12.0.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-rating": "^2.0.5",
+    "react-multi-carousel": "^2.6.5"
   },
   "devDependencies": {
+    "@svgr/webpack": "^6.1.2",
     "eslint": "8.4.1",
-    "eslint-config-next": "12.0.7"
+    "eslint-config-next": "12.0.7",
+    "sass": "^1.45.0"
   }
 }

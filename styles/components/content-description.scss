@@ -1,0 +1,24 @@
+.content-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  &__title {
+    font-size: 5.6rem;
+    line-height: 6rem;
+    font-weight: 500;
+  }
+
+  &__rating {
+    svg {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+  }
+
+  .star-rating {
+    > span > span + span {
+      margin-left: 2.7px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+
+    svg {
+        width: 50%;
+        height: auto;
+    }
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        svg {
+            width: 55%;
+        }
+    }
+}

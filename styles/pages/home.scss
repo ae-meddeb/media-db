@@ -1,0 +1,18 @@
+$highlight-height: 70vh;
+
+.home {
+  .highlight {
+    position: fixed;
+    top: 0;
+    height: $highlight-height;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &_scroller {
+    position: relative;
+    background: var(--bg-primary);
+    margin: $highlight-height 0 0 var(--side-bar-width);
+    z-index: 2;
+  }
+}
